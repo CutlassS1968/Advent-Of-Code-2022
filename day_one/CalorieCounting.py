@@ -1,5 +1,5 @@
 def part_one():
-    text = open("calories.txt", "r")
+    text = open("data.txt", "r")
     lines = text.readlines()
     e = 1
     v = 0
@@ -27,7 +27,7 @@ def part_one():
 
 
 def part_two():
-    text = open("calories.txt", "r")
+    text = open("data.txt", "r")
     lines = text.readlines()
     e = 1
     v = 0
